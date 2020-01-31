@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Matthew Wade - Project 1</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="main.css" />
+		<noscript><link rel="stylesheet" href="noscript.css" /></noscript>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Project Details</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="project1.html" class="active">Project 1</a></li>
+						<li><a href="project2.html">Project 2</a></li>
+						<li><a href="project3.html">Project 3</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Interactive Plate Motion Model</h1>
+							<span class="image fit"><img src="PMMP.png" alt="" /></span>
+							<p>In Summer 2019, I was employed as a Geophysics Research Intern at the National Geospatial Intelligence Agency (NGA). My team outlined a predicament: surface GPS sites, with positions determined to high accuracy upon establishment, are assumed to remain stationary; In fact, tectonic plate velocities consistently exceed 15cm/yr at some locations. As it is costly to resurvey GPS sites frequently, how else might we keep the positional accuracy of GPS sites within the Agency's standard?</p>
+							<p>My tools: a paper outlining a theoretical protocol which would identify the most accurate plate motion model for any location on Earth's continental crust, and a Python script which, when provided coordinates, identifies the most accurate plate motion model. I modulated the script into my own code such that plate motion data was collected over a global grid of over 1 million equidistant coordinate points. I then interpolated between the datapoints in ArcGIS. I delivered my team an interactive map depicting spatial variability in continental crust velocity, as predicted by plate motion models selected by the protocol.</p>
+							<p>The Agency is now using my product to estimate the frequency of resurvey necessary to keep specific GPS sites within specifications.</p>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="jquery.min.js"></script>
+			<script src="jquery.scrollex.min.js"></script>
+			<script src="jquery.scrolly.min.js"></script>
+			<script src="js/browser.min.js"></script>
+			<script src="breakpoints.min.js"></script>
+			<script src="util.js"></script>
+			<script src="main.js"></script>
+
+	</body>
+</html>
