@@ -97,7 +97,7 @@ input, select {
 /* Spotlights */
 
 	.spotlights > section > .image:before {
-		opacity: 0 !important;
+		opacity: 1 !important;
 	}
 
 	.spotlights > section > .content > .inner {
