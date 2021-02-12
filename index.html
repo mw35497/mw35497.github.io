@@ -127,13 +127,17 @@
 								<section>
 									<form method="post" action="https://app.99inbound.com/api/e/W_a5cXW1">
 										<div class="fields">
+											<!-- Honeypot -->
+											<div style="position: absolute; left: -5000px;">
+												<input type="checkbox" name="honeypot" value="1" tabindex="-1" autocomplete="no">
+											</div>
 											<div class="field half">
 												<label for="name">Your Name</label>
 												<input type="text" name="name" id="name" />
 											</div>
 											<div class="field half">
-												<label for="email">Your Email</label>
-												<input type="text" name="email" id="email" />
+												<label for="email_true">Your Email</label>
+												<input type="text" name="email_true" id="email_true" />
 											</div>
 											<div class="field">
 												<label for="message">Message</label>
